@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/join"
+    tools:context=".Register">
+
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="ELLE"
+            android:textColor="#E16C1241"
+            android:textSize="50sp"
+            android:textStyle="italic" />
+        <TextView
+            android:id="@+id/name2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="workout"
+            android:textColor="#FFC107"
+            android:textSize="50sp"
+            android:textStyle="italic" />
+
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/PlayerName"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/inputs"
+        android:hint="  name"
+        android:textSize="20sp"
+        android:textColorHint="#9C27B0"
+        android:textColor="@color/white"
+        android:layout_marginTop="180dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:inputType="text"
+        />
+
+    <EditText
+
+        android:id="@+id/password"
+        android:background="@drawable/inputs"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="  Password"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:textColorHint="#9C27B0"
+        android:layout_below="@+id/PlayerName"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"
+        android:inputType="text"
+        tools:ignore="TextFields" />
+    <EditText
+
+        android:id="@+id/email"
+        android:background="@drawable/inputs"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="  e-mail"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:textColorHint="#9C27B0"
+        android:layout_below="@+id/password"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"
+        android:inputType="text"
+        tools:ignore="TextFields" />
+
+    <EditText
+
+        android:id="@+id/uniReg"
+        android:background="@drawable/inputs"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint=" Univercity Reg.no"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:textColorHint="#9C27B0"
+        android:layout_below="@+id/email"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"
+        android:inputType="text"/>
+    <EditText
+
+        android:id="@+id/PhoneNo"
+        android:background="@drawable/inputs"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="  Phone Number"
+        android:textSize="20sp"
+        android:textColorHint="#9C27B0"
+        android:textColor="@color/white"
+        android:layout_below="@+id/uniReg"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"
+        android:inputType="number"
+        tools:ignore="TextFields" />
+
+
+
+    <Button
+
+        android:id="@+id/create"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button"
+        android:layout_below="@+id/PhoneNo"
+        android:layout_marginTop="10dp"
+        android:text="Create Account"
+        android:textAllCaps="false"
+        android:textSize="25dp" />
+
+
+</RelativeLayout>

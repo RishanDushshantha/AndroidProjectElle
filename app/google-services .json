@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "758333430349",
+    "project_id": "elle-workout-d3a51",
+    "storage_bucket": "elle-workout-d3a51.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:758333430349:android:dcfe35635515345ef99a04",
+        "android_client_info": {
+          "package_name": "com.example.elle_workout"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "758333430349-ul0h2fg6egevfebf3jia825q8faf3r5g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD01E33GI86BNSFIPhOm7EUrEVY9TLvpJ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "758333430349-ul0h2fg6egevfebf3jia825q8faf3r5g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

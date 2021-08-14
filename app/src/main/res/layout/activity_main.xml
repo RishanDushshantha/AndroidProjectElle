@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+tools:context=".MainActivity"
+android:background="@drawable/kkk">
+<LinearLayout
+    android:layout_marginLeft="20dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="ELLE  "
+        android:textColor="#E16C1241"
+        android:textSize="50sp"
+        android:textStyle="italic" />
+    <TextView
+        android:id="@+id/name2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="workout"
+        android:textColor="#FFC107"
+        android:textSize="50sp"
+        android:textStyle="italic" />
+
+
+
+</LinearLayout>
+
+
+<Button
+    android:id="@+id/join"
+    android:layout_width="240dp"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:background="@drawable/button"
+    android:layout_centerHorizontal="true"
+    android:layout_marginBottom="20dp"
+    android:text="Join"
+    android:textAllCaps="false"
+    android:textSize="20dp" />
+<TextView
+    android:id="@+id/Already_account"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_above="@id/join"
+    android:text="Already have not an account?"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="20dp"
+    android:textColor="@color/white"
+    android:textSize="25dp" />
+
+<Button
+
+    android:id="@+id/login"
+    android:layout_width="240dp"
+    android:layout_height="wrap_content"
+    android:layout_above="@+id/Already_account"
+    android:layout_centerHorizontal="true"
+    android:background="@drawable/button"
+    android:text="Login"
+    android:textAllCaps="false"
+    android:textSize="20dp" />
+
+</RelativeLayout>
